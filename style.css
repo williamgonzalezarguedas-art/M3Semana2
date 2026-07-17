@@ -23,7 +23,7 @@
      background-color: rgb(158, 219, 158);
      width: 150px;
      height: 150px;
-
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      border: 2px solid white;
      border-left: 4px solid white;
      border-bottom: 4px solid white;
@@ -42,6 +42,8 @@
      padding: 0px;
 
  }
+
+ /*comandos de Overflow*/
 
  .hidden {
      overflow: hidden;
@@ -62,6 +64,41 @@
      overflow: visible;
  }
 
- . h2 {
-     margin: 0;
+ /*comandos de position*/
+
+ .static {
+     position: static;
+ }
+
+ .relative {
+     position: relative;
+
+     top: 10px;
+     left: 50%;
+
+     /*top, botton, left, right*/
+ }
+
+ .absolute {
+     position: relative;
+ }
+
+ .etiqueta {
+     position: absolute;
+
+     top: 200px;
+     right: 150px;
+ }
+
+ .chat {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+
+     background-color: black;
+ }
+
+ .sticky {
+     position: sticky;
+     top: 0;
  }

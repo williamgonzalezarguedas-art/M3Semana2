@@ -9,24 +9,33 @@
 </head>
 
 <body>
-    <h1>Modelo de Caja</h1>
+    <header class="sticky">
+        <h1>Modelo de Caja</h1>
+    </header>
 
-    <div class="cajaexterna">
-        <div class="cajainterna hidden ">
+
+    <button class="chat">
+        💬
+    </button>
+
+    <div class="cajaexterna ">
+        <div class="cajainterna hidden static">
             <p class="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </div>
-        <div class="cajainterna scroll">
+        <div class="cajainterna scroll relative">
             <p class="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </div>
-        <div class="cajainterna">
+        <div class="cajainterna absolute">
+
+            <span class="etiqueta">New</span>
             <p class="ellipsis">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
