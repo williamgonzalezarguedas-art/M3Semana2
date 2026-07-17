@@ -1,5 +1,6 @@
  * {
      box-sizing: border-box;
+     /*box-sizing: content-box;*/
  }
 
  body {
@@ -9,21 +10,25 @@
  }
 
  .cajaexterna {
-     background-color: red;
+     background-color: rgb(224, 95, 192);
      width: 300px;
-     height: 300px;
+
      margin: auto;
 
      border: 2px solid black;
+     border-radius: 10px;
  }
 
  .cajainterna {
      background-color: rgb(158, 219, 158);
-     width: 200px;
-     height: 200px;
+     width: 150px;
+     height: 150px;
 
      border: 2px solid white;
-     margin: auto;
+     border-left: 4px solid white;
+     border-bottom: 4px solid white;
+     margin: 15px auto;
+
      padding: 10px;
  }
 
@@ -38,6 +43,25 @@
 
  }
 
- h2 {
+ .hidden {
+     overflow: hidden;
+ }
+
+ .scroll {
+     overflow: auto;
+     /*overflow: scroll;*/
+ }
+
+ .ellipsis {
+     overflow: hidden;
+     white-space: nowrap;
+     text-overflow: ellipsis;
+ }
+
+ .visible {
+     overflow: visible;
+ }
+
+ . h2 {
      margin: 0;
  }
